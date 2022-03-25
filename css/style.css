@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.nav-bar {
+    background-color: #223047;
+    color: white;
+}
+.nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.nav-bar .logo {
+    font-size: x-large;
+    font-weight: 500;
+    color: aqua;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+    padding: 10px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.nav-buttons i {
+    padding: 10px;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.button-color {
+    border: 0;
+    background-color: aqua;
+    color: #223047;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.button {
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin: 20px 10px;
+}
+.nav-buttons i {
+    padding: 10px;
+}
+.hero {
+    background-color: #223047;
+    color: white;
+    text-align: left;
+    height: 650px;
+}
+.hero .container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.hero .left {
+    width: 40%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    font-weight: 400;
+}
+.hero .right {
+    width: 50%;
+}
+
+.hero .right img {
+    height: 90%;
+    position: relative;
+    left: 50%;
+    bottom: -150px;
+}
+.services .top {
+    font-size: xx-large;
+    color: #223047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0 100px 0;
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.services .bottom {
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.services .card {
+    width: 20%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.services h3 {
+    padding: 20px 0;
+}
+.services h4 {
+    color: #223047;
+}
+h4 {
+    font-weight: 300;
+    color: #223047;
+}
+.top-branding {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.top-branding .left {
+    flex: 5;
+    background-color: #223047;
+}
+
+.top-branding .right {
+    flex: 7;
+    background-color: #f5f6fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.top-branding .right * {
+    padding: 0 100px;
+}
+h2 {
+    font-weight: 500;
+    font-size: xx-large;
+    margin: 20px 0;
+}
+.middle-branding .brand-1 {
+    height: 500px;
+}
+
+.middle-branding .brand {
+    display: flex;
+}
+.middle-branding .brand .left {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-align: end;
+}
+.middle-branding .brand .right {
+    flex: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-branding .brand-1 .right img {
+    width: 80%;
+    height: 70%;
+}
+.middle-branding .brand-2 {
+    height: 550px;
+}
+.middle-branding .brand-2 .left img {
+    position: relative;
+    bottom: -80px;
+}
+.middle-branding .brand-2 .right {
+    display: flex;
+    flex-direction: column;
+}
+.middle-branding .brand-2 .card {
+    width: 70%;
+    margin: 10px;
+    padding: 20px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    display: flex;
+    align-items: center;
+}
+.middle-branding .brand-2 .card i {
+    padding: 10px;
+}
+.bottom-branding {
+    background-color: #f5f6fa;
+    height: 550px;
+    width: 100%;
+    padding-top: 100px;
+}
+.bottom-branding .container {
+    display: flex;
+    height: 100%;
+}
+.bottom-branding .left {
+    flex: 5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: end;
+}
+.bottom-branding .left .platforms i {
+    color: #223047;
+}
+.bottom-branding .right {
+    flex: 7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bottom-branding .right div#left {
+    height: 250px;
+    width: 30%;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.bottom-branding .right div#middle {
+    height: 350px;
+    width: 25%;
+    border-radius: 2px;
+    background-color: #223047;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bottom-branding .right div#right {
+    height: 200px;
+    width: 15%;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.video {
+    background-color: #223047;
+    height: 550px;
+    text-align: center;
+    color: white;
+}
+.video .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video .container i {
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
+.video h4 {
+    width: 70%;
+    color: white;
+}
+.download {
+    background: url(../img/world-map.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.download h2 {
+    color: white;
+    background-color: #223047;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.download * {
+    margin: 15px;
+}
+.download h4 {
+    background-color: #223047;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.quotes {
+    height: 300px;
+    background-color: #223047;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quotes h4 {
+    width: 50%;
+    color: white;
+}
+.apps {
+    background-color: #f5f6fa;
+    height: 550px;
+}
+.apps .container {
+    display: flex;
+    height: 100%;
+}
+.apps .container .left {
+    flex: 5;
+    display: flex;
+    align-items: center;
+}
+.apps .left .image-1 {
+    height: 80%;
+    position: relative;
+    right: -100px;
+}
+.apps .left .image-2 {
+    height: 70%;
+}
+.apps .container .right {
+    flex: 7;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apps .right .buttons img {
+    width: 100px;
+    height: 60px;
+}
+.apps .div-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.apps .button {
+    padding: 15px 80px;
+    position: relative;
+    top: -40px;
+}
+.sitemap {
+    margin-top: 150px;
+}
+.sitemap .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sitemap h3 {
+    color: #223047;
+    padding: 20px 0;
+}
+.sitemap ul {
+    list-style: none;
+}
+.sitemap a {
+    text-decoration: none;
+    color: #223047;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.subscribe {
+    margin: 150px 0;
+}
+.subscribe .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.subscribe h4 {
+    width: 60%;
+}
+.subscribe input {
+    padding: 10px 60px;
+    border: 1px solid #223047;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #223047;
+    padding: 20px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .left {
+    color: aqua;
+}
+.footer .right {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.footer .right a {
+    margin: 5px 10px;
+    color: white;
+}
+
